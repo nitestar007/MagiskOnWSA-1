@@ -14,7 +14,7 @@ on:
       release_type:
         description: "WSA release type"
         required: true
-        default: "release preview"
+        default: "retail"
         type: choice
         options:
         - retail
@@ -34,7 +34,7 @@ on:
       gapps_variant:
         description: "Variants of gapps"
         required: true
-        default: "none"
+        default: "stock"
         type: choice
         options:
         - none
@@ -50,7 +50,7 @@ on:
       remove_amazon:
         description: "Remove Amazon AppStore"
         required: true
-        default: "remove"
+        default: "keep"
         type: choice
         options:
         - keep
