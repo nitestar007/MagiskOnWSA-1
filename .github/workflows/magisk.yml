@@ -24,7 +24,7 @@ on:
       magisk_apk:
         description: "Magisk version"
         required: true
-        default: "stable"
+        default: "beta"
         type: choice
         options:
         - stable
@@ -34,7 +34,7 @@ on:
       gapps_variant:
         description: "Variants of gapps"
         required: true
-        default: "none"
+        default: "nano"
         type: choice
         options:
         - none
